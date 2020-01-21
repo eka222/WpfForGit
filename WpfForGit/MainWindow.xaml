@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfForGit.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfForGit"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Werken met Git" HorizontalAlignment="Left" Height="45" Margin="135,30,0,0" VerticalAlignment="Top" Width="180"/>
+        <Button Content="ToonBerichten" HorizontalAlignment="Left" Height="45" Margin="135,100,0,0" VerticalAlignment="Top" Width="180"/>
+        <TextBox HorizontalAlignment="Left" Height="205" Margin="100,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255"/>
+
+    </Grid>
+</Window>
