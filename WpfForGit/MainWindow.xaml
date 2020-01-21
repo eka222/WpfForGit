@@ -8,8 +8,8 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Label Content="Werken met Git" HorizontalAlignment="Left" Height="45" Margin="135,30,0,0" VerticalAlignment="Top" Width="180"/>
-        <Button Content="ToonBerichten" HorizontalAlignment="Left" Height="45" Margin="135,100,0,0" VerticalAlignment="Top" Width="180"/>
-        <TextBox HorizontalAlignment="Left" Height="205" Margin="100,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255"/>
+        <Button x:Name="btnToonBerichten" Content="ToonBerichten" HorizontalAlignment="Left" Height="45" Margin="135,100,0,0" VerticalAlignment="Top" Width="180" Click="Button_Click"/>
+        <TextBox x:Name="lstBerichten" HorizontalAlignment="Left" Height="205" Margin="100,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255"/>
 
     </Grid>
 </Window>
